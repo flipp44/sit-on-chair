@@ -1,19 +1,24 @@
-.header {
+/* ------------------------------
+							NAV BAR
+ ------------------------------*/
+
+.nav-bar {
+	width: 100%;
 	background-color: black;
 }
 
-.header .row {
-	width: 100%;
+.nav-bar .row {
 	text-transform: uppercase;
 	color: white;
 	font-weight: 700;
 	font-size: 13px;
-	padding: 10px 0;
+	letter-spacing: 0.5px;
+	line-height: 16px;
+	padding: 12px 10px;
 }
 
 .brand-color {
 	color: #20CBA9;
-	font-weight: 900;
 }
 
 .site-menu {
@@ -22,7 +27,73 @@
 
 .site-menu li {
 	padding-left: 40px;
+	//font-size: 14px;
 	letter-spacing: 0.5px;
 	list-style-type: none;
-	display: inline-flex;
+	display: inline-block;
+
+}
+
+/* ------------------------------
+				PRODUCT-INFO
+ ------------------------------*/
+
+.main-product {
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 35%, rgba(219,216,219,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(35%, rgba(246,246,246,1)), color-stop(100%, rgba(219,216,219,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 35%, rgba(219,216,219,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 35%, rgba(219,216,219,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 35%, rgba(219,216,219,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 35%, rgba(219,216,219,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dbd8db', GradientType=0 );
+height: 500px;
+padding-top: 100px;
+padding-bottom: 50px;
+}
+
+.sign {
+	font-size: 50px;
+	padding: 150px 0;
+	line-height: 100%;
+	text-align: center;
+}
+
+.black-chair {
+	position: relative;
+	left: -60px;
+	top: 20px;
+	transform: scale(1.3);
+}
+
+
+
+.main-heading {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 35px;
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+
+.main-description {
+	padding: 30px 50px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 200;
+}
+
+.see-more-btn {
+	width: 50%;
+	height: 50px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	background-color: #20CBA9;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 10px;
 }
