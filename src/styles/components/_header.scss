@@ -1,0 +1,28 @@
+.header {
+	background-color: black;
+}
+
+.header .row {
+	width: 100%;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 700;
+	font-size: 13px;
+	padding: 10px 0;
+}
+
+.brand-color {
+	color: #20CBA9;
+	font-weight: 900;
+}
+
+.site-menu {
+	text-align: right;
+}
+
+.site-menu li {
+	padding-left: 40px;
+	letter-spacing: 0.5px;
+	list-style-type: none;
+	display: inline-flex;
+}
